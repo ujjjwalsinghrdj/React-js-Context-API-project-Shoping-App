@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Merriweather:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,11 +6,11 @@
 
 body {
   margin: 0;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(#31220b, #382e1b);
-  color: #f3e7d4;
+  background: linear-gradient(116deg, #071a35 0%, #0b3158 54%, #086b78 100%);
+  color: #fff;
   min-height: 100vh;
 }
 
@@ -34,24 +34,26 @@ body {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  color: #edbf68;
+  color: #fff;
   text-shadow: 0 0 4px rgba(35, 34, 34, 0.4);
   font-size: 2.5rem;
   margin: 0;
 }
 
 #main-header button {
-  background: #edbf68;
+  background: linear-gradient(270deg, #fabc00 0%, #d5a000 100%);
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1.5rem;
-  color: #201e1a;
+  color: #16475c;
   font-size: 1.25rem;
   cursor: pointer;
 }
 
 #main-header button:hover {
-  background: #f5b744;
+  color: #eab000;
+  background: #fff;
+  border: 1px solid #eab000;
 }
 
 #shop {
@@ -60,9 +62,11 @@ h1 {
 }
 
 #shop h2 {
-  font-size: 1.5rem;
-  color: #a59b8b;
-  text-transform: uppercase;
+  background: linear-gradient(90deg, #7ad8d0 0%, #ffd58a 100%);
+  color: #34a1a0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #products {
@@ -113,17 +117,19 @@ h1 {
 }
 
 .product-actions button {
-  background: #f4b115;
+  background: linear-gradient(270deg, #fabc00 0%, #d5a000 100%);
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1rem;
-  color: #201e1a;
+  color: #16475c;
   font-size: 1rem;
   cursor: pointer;
 }
 
 .product-actions button:hover {
-  background: #f5b744;
+  color: #eab000;
+  background: #fff;
+  border: 1px solid #eab000;
 }
 
 #modal {
